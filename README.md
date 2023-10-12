@@ -23,7 +23,7 @@ Dalam package `main`, terdapat kelas `Library` yang bertanggung jawab untuk meng
 
 <li> Deklarasi </li>
 
-![image](https://github.com/RemandaDheva/pbo-post-test-2/assets/126783072/a3163859-887b-4da8-8790-4b4c085a1e50)
+![image](https://github.com/RemandaDheva/pbo-post-test-2/assets/126783072/7270be08-8989-4c8d-9381-b65f021d44e4)
 
 * Pada baris pertama, kita mendeklarasikan package `main` yang menunjukkan bahwa kelas ini berada dalam package main. Package declaration ini membantu dalam mengorganisir dan mengelompokkan kelas-kelas terkait dalam struktur direktori yang terorganisir.
 
