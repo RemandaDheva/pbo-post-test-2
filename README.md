@@ -100,3 +100,35 @@ Kelas `Manhwa` memiliki constructor yang digunakan untuk menginisialisasi nilai-
 ![image](https://github.com/RemandaDheva/pbo-post-test-2/assets/126783072/9ae45478-e45a-444c-8e7c-347f8f03297c)
 
 Selain constructor, terdapat juga getter dan setter untuk setiap atribut dalam kelas `Manhwa`. Getter digunakan untuk mengakses nilai dari atribut, sedangkan setter digunakan untuk mengubah nilai dari atribut.
+
+## OUTPUT PROGRAM
+
+* MENU UTAMA
+
+  ![image](https://github.com/RemandaDheva/pbo-post-test-2/assets/126783072/b8777532-785c-4c75-b0ad-f3b39733daa2)
+
+* MENU TAMBAHKAN WEBTOON
+
+  ![image](https://github.com/RemandaDheva/pbo-post-test-2/assets/126783072/beebfbc5-71a5-4974-83e0-874dedd3be43)
+
+* MENU TAMPILKAN WEBTOON
+
+  ![image](https://github.com/RemandaDheva/pbo-post-test-2/assets/126783072/9414c42b-3906-4086-8d0d-3fdb9d6a1955)
+
+* MENU MENGUBAH WEBTOON
+
+  ![image](https://github.com/RemandaDheva/pbo-post-test-2/assets/126783072/60df2758-17ea-47f2-9934-2e98f3392b1f)
+
+  ![image](https://github.com/RemandaDheva/pbo-post-test-2/assets/126783072/97adca48-5b64-4a08-bbb9-22a9c7312bc6)
+
+  ![image](https://github.com/RemandaDheva/pbo-post-test-2/assets/126783072/c05353f3-5b79-4cae-a2c8-6a4c0ccde857)
+
+* MENU MENGHAPUS WEBTOON
+
+  ![image](https://github.com/RemandaDheva/pbo-post-test-2/assets/126783072/d4a88a3b-ed1f-4bae-a289-86386cac5245)
+
+  ![image](https://github.com/RemandaDheva/pbo-post-test-2/assets/126783072/b9a301a7-8ee9-4145-bd35-54be5d94d6e7)
+
+* MENU KELUAR
+
+  ![image](https://github.com/RemandaDheva/pbo-post-test-2/assets/126783072/6fc6db09-5e7b-403d-b730-df3cae72462a)
