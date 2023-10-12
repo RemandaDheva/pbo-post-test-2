@@ -19,7 +19,7 @@ Dengan adanya library KakaoWebtoon ini, pengguna dapat dengan mudah mengelola da
 
 ## PENJELASAN PADA PACKAGE UTAMA (MAIN)
 
-Dalam package 'main', terdapat kelas Library yang bertanggung jawab untuk mengelola operasi-operasi terkait dengan webtoon.
+Dalam package main, terdapat kelas Library yang bertanggung jawab untuk mengelola operasi-operasi terkait dengan webtoon.
 <li> Deklarasi </li>
 
 * Pada baris pertama, kita mendeklarasikan package main yang menunjukkan bahwa kelas ini berada dalam package main. Package declaration ini membantu dalam mengorganisir dan mengelompokkan kelas-kelas terkait dalam struktur direktori yang terorganisir.
@@ -36,11 +36,13 @@ Dalam package 'main', terdapat kelas Library yang bertanggung jawab untuk mengel
 
 * Kelas Library memiliki konstruktor kosong yang tidak menerima parameter. Konstruktor ini tidak melakukan operasi apapun. Konstruktor kosong ini dapat digunakan jika kita ingin membuat objek Library tanpa melakukan inisialisasi khusus.
 
-* Kelas Library memiliki beberapa method yang digunakan untuk melakukan operasi-operasi terkait webtoon. Method main adalah method utama program yang akan dieksekusi saat program dijalankan. Method ini berfungsi sebagai entry point program. Method addWebtoon digunakan untuk menambahkan webtoon baru ke dalam listWebtoon. Method readWebtoon digunakan untuk menampilkan daftar webtoon yang ada dalam listWebtoon. Method deleteWebtoon digunakan untuk menghapus webtoon dari listWebtoon.
+* Kelas Library memiliki beberapa method yang digunakan untuk melakukan operasi-operasi terkait webtoon. Method main adalah method utama program yang akan dieksekusi saat program dijalankan. Method ini berfungsi sebagai entry point program. Method createWebtoon digunakan untuk menambahkan webtoon baru ke dalam listWebtoon. Method readWebtoon digunakan untuk menampilkan daftar webtoon yang ada dalam listWebtoon. Method updateWebtoon digunakan untuk mengedit informasi webtoon yang ada dalam Listwebtoon. Method deleteWebtoon digunakan untuk menghapus webtoon dari listWebtoon.
 
+* Perulangan do-while akan terus berjalan selama pengguna tidak memilih menu keluar (0). Setelah pengguna memilih menu keluar, program akan berakhir dan program akan selesai dieksekusi.
+  
 <li> INPUT MENU CREATE WEBTOON
 
-  Pada awalnya, program akan menampilkan pesan "TAMBAH WEBTOON" untuk memberikan informasi kepada pengguna bahwa mereka sedang melakukan proses penambahan webtoon. Selanjutnya, program akan meminta pengguna untuk memasukkan judul webtoon baru, genre, status, penulis, artist, karya asli, dan penerbit melalui input pengguna. Nilai-nilai yang dimasukkan oleh pengguna akan disimpan dalam variabel yang sesuai. Setelah pengguna memasukkan semua informasi, program akan membuat objek Manhwa baru dengan menggunakan nilai-nilai yang dimasukkan oleh pengguna sebagai argumen konstruktor. Objek Manhwa baru kemudian ditambahkan ke dalam ArrayList listWebtoon menggunakan metode listWebtoon.add(webtoon). Terakhir, program akan menampilkan pesan "Webtoon telah berhasil ditambahkan!" untuk memberitahu pengguna bahwa proses penambahan webtoon telah berhasil.
+  Pada awalnya, program akan menampilkan pesan "TAMBAH WEBTOON" untuk memberikan informasi kepada pengguna bahwa mereka sedang melakukan proses penambahan webtoon. Selanjutnya, program akan meminta pengguna untuk memasukkan judul webtoon baru, genre, status, penulis, artist, karya asli, dan penerbit melalui input pengguna. Nilai-nilai yang dimasukkan oleh pengguna akan disimpan dalam variabel yang sesuai. Setelah pengguna memasukkan semua informasi, program akan membuat objek Manhwa baru dengan menggunakan nilai-nilai yang dimasukkan oleh pengguna sebagai argumen konstruktor. Objek Manhwa baru kemudian ditambahkan ke dalam ArrayList listWebtoon. Terakhir, program akan menampilkan pesan "Webtoon telah berhasil ditambahkan!" untuk memberitahu pengguna bahwa proses penambahan webtoon telah berhasil.
   
 <li> INPUT MENU READ WEBTOON
 
@@ -48,7 +50,7 @@ Dalam package 'main', terdapat kelas Library yang bertanggung jawab untuk mengel
   
 <li> INPUT MENU UPDATE WEBTOON
 
-  Pada bagian update, terdapat beberapa langkah yang dilakukan. Pertama, program akan menampilkan pesan "UPDATE WEBTOON" untuk memberikan informasi kepada pengguna bahwa mereka sedang melakukan proses update. Selanjutnya, program akan meminta pengguna untuk memasukkan judul baru, genre baru, status baru, penulis baru, artist baru, karya asli baru, dan penerbit baru melalui input pengguna. Setelah itu, nilai-nilai baru ini akan diset ke objek webtoon yang ingin diupdate menggunakan metode setJudulWebtoon(), setGenre(), setStatus(), setPenulis(), setArtist(), setKaryaAsli(), dan setPenerbit(). Terakhir, program akan menampilkan pesan "Webtoon telah berhasil diupdate!!" untuk memberitahu pengguna bahwa proses update telah berhasil.
+  Pada bagian update, terdapat beberapa langkah yang dilakukan. Pertama, program akan menampilkan pesan "UPDATE WEBTOON" untuk memberikan informasi kepada pengguna bahwa mereka sedang melakukan proses update. Selanjutnya, program akan meminta pengguna untuk memasukkan judul baru, genre baru, status baru, penulis baru, artist baru, karya asli baru, dan penerbit baru melalui input pengguna. Setelah itu, nilai-nilai baru ini akan diset ke objek webtoon yang ingin diupdate menggunakan metode setJudulWebtoon(), setGenre(), 'setStatus()', setPenulis(), setArtist(), setKaryaAsli(), dan setPenerbit(). Terakhir, program akan menampilkan pesan "Webtoon telah berhasil diupdate!!" untuk memberitahu pengguna bahwa proses update telah berhasil.
   
 <li> INPUT MENU DELETE WEBTOON
   
