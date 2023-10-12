@@ -23,6 +23,8 @@ Dalam package `main`, terdapat kelas `Library` yang bertanggung jawab untuk meng
 
 <li> Deklarasi </li>
 
+![image](https://github.com/RemandaDheva/pbo-post-test-2/assets/126783072/a3163859-887b-4da8-8790-4b4c085a1e50)
+
 * Pada baris pertama, kita mendeklarasikan package `main` yang menunjukkan bahwa kelas ini berada dalam package main. Package declaration ini membantu dalam mengorganisir dan mengelompokkan kelas-kelas terkait dalam struktur direktori yang terorganisir.
 
 * Pada baris kedua, kita mengimpor kelas `Manhwa` dari package webtoon. Ini memungkinkan kita untuk menggunakan kelas Manhwa dalam kelas `Library`. Dengan mengimpor kelas dari package lain, kita dapat menggunakan fungsionalitas yang ada dalam kelas tersebut.
@@ -32,6 +34,8 @@ Dalam package `main`, terdapat kelas `Library` yang bertanggung jawab untuk meng
 * Pada baris kelima, kita mendeklarasikan variabel `input` sebagai objek `Scanner`. Scanner adalah kelas yang digunakan untuk membaca input dari pengguna. Dalam hal ini, kita menggunakan Scanner untuk membaca input dari pengguna saat melakukan operasi-operasi terkait webtoon.
 
 <li> Kelas Library </li>
+
+![image](https://github.com/RemandaDheva/pbo-post-test-2/assets/126783072/ddb558b6-64e6-419e-833a-e746c14563b7)
 
 Kelas Library dideklarasikan sebagai `final`, yang berarti kelas ini tidak dapat diwarisi oleh kelas lain. Ini dapat berguna jika kita ingin mencegah kelas ini diubah atau di-extend oleh kelas lain.
 
@@ -51,21 +55,31 @@ Dengan demikian, dalam method `main` ini, pengguna dapat menggunakan menu-menu y
   
 <li> INPUT MENU CREATE WEBTOON
 
+![image](https://github.com/RemandaDheva/pbo-post-test-2/assets/126783072/e26b130b-a1f5-4246-9d6c-4a1456dea564)
+
   Pada awalnya, program akan menampilkan pesan "TAMBAH WEBTOON" untuk memberikan informasi kepada pengguna bahwa mereka sedang melakukan proses penambahan webtoon. Selanjutnya, program akan meminta pengguna untuk memasukkan judul webtoon baru, genre, status, penulis, artist, karya asli, dan penerbit melalui input pengguna. Nilai-nilai yang dimasukkan oleh pengguna akan disimpan dalam variabel yang sesuai. Setelah pengguna memasukkan semua informasi, program akan membuat objek Manhwa baru dengan menggunakan nilai-nilai yang dimasukkan oleh pengguna sebagai argumen konstruktor. Objek Manhwa baru kemudian ditambahkan ke dalam `ArrayList` `listWebtoon`. Terakhir, program akan menampilkan pesan "Webtoon telah berhasil ditambahkan!" untuk memberitahu pengguna bahwa proses penambahan webtoon telah berhasil.
   
 <li> INPUT MENU READ WEBTOON
+
+![image](https://github.com/RemandaDheva/pbo-post-test-2/assets/126783072/20dd4e64-f05c-4e31-8a28-c8c96d5488af)
 
   Bagian "Tampilkan Webtoon" pada kode tersebut adalah fitur yang memungkinkan pengguna untuk melihat daftar webtoon yang ada dalam library. Pada awalnya, program akan menampilkan pesan "DAFTAR WEBTOON" untuk memberikan informasi kepada pengguna bahwa mereka akan melihat daftar webtoon. Selanjutnya, program akan melakukan iterasi melalui setiap objek Manhwa dalam ArrayList listWebtoon menggunakan perulangan for-each. Pada setiap iterasi, program akan menampilkan informasi mengenai setiap webtoon seperti judul, genre, status, penulis, artist, karya asli, dan penerbit menggunakan System.out.println(). Setelah selesai menampilkan semua webtoon, program akan kembali ke menu utama.
   
 <li> INPUT MENU UPDATE WEBTOON
 
+![image](https://github.com/RemandaDheva/pbo-post-test-2/assets/126783072/e88d1596-f12d-4cd5-a498-192f3421a53d)
+
   Pada bagian update, terdapat beberapa langkah yang dilakukan. Pertama, program akan menampilkan pesan "UPDATE WEBTOON" untuk memberikan informasi kepada pengguna bahwa mereka sedang melakukan proses update. Selanjutnya, program akan meminta pengguna untuk memasukkan judul baru, genre baru, status baru, penulis baru, artist baru, karya asli baru, dan penerbit baru melalui input pengguna. Setelah itu, nilai-nilai baru ini akan diset ke objek webtoon yang ingin diupdate menggunakan metode setJudulWebtoon(), setGenre(), setStatus(), setPenulis(), setArtist(), setKaryaAsli(), dan setPenerbit(). Terakhir, program akan menampilkan pesan "Webtoon telah berhasil diupdate!!" untuk memberitahu pengguna bahwa proses update telah berhasil.
   
 <li> INPUT MENU DELETE WEBTOON
-  
+
+![image](https://github.com/RemandaDheva/pbo-post-test-2/assets/126783072/5d5b1105-b7e2-4270-88f2-44523b170ce5)
+
   Pada bagian delete, program akan menampilkan pesan "DELETE WEBTOON" untuk memberikan informasi kepada pengguna bahwa mereka sedang melakukan proses delete. Selanjutnya, program akan memanggil metode readWebtoon() untuk menampilkan daftar webtoon yang ada dalam library. Setelah itu, program akan meminta pengguna untuk memilih nomor webtoon yang ingin dihapus melalui input pengguna. Jika nomor yang dimasukkan valid (antara 1 hingga jumlah webtoon yang ada), maka program akan menghapus webtoon tersebut dari listWebtoon menggunakan metode remove(). Terakhir, program akan menampilkan pesan "Webtoon telah berhasil dihapus!" untuk memberitahu pengguna bahwa proses delete telah berhasil.
 
 ## PENJELASAN PADA PACKAGE WEBTOON
+
+![image](https://github.com/RemandaDheva/pbo-post-test-2/assets/126783072/44cebe59-2444-4f00-a36d-9eb46f7adf2e)
 
 Kelas `Manhwa` adalah kelas yang merepresentasikan sebuah webtoon dalam aplikasi. Kelas ini memiliki beberapa atribut seperti `judulWebtoon`, `genre`, `status`, `penulis`, `artist`, `karyaAsli`, dan `penerbit` yang digunakan untuk menyimpan informasi mengenai webtoon tersebut.
 
@@ -82,4 +96,7 @@ Kelas `Manhwa` adalah kelas yang merepresentasikan sebuah webtoon dalam aplikasi
 * Atribut `penerbit` menyimpan informasi mengenai penerbit dari webtoon tersebut. 
 
 Kelas `Manhwa` memiliki constructor yang digunakan untuk menginisialisasi nilai-nilai dari atribut-atribut tersebut. Constructor ini menerima parameter berupa judul webtoon, genre, status, penulis, artist, karya asli, dan penerbit, dan mengeset nilai-nilai atribut sesuai dengan parameter yang diberikan.
+
+![image](https://github.com/RemandaDheva/pbo-post-test-2/assets/126783072/9ae45478-e45a-444c-8e7c-347f8f03297c)
+
 Selain constructor, terdapat juga getter dan setter untuk setiap atribut dalam kelas `Manhwa`. Getter digunakan untuk mengakses nilai dari atribut, sedangkan setter digunakan untuk mengubah nilai dari atribut.
