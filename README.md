@@ -13,7 +13,9 @@ Library KakaoWebtoon akan menyediakan fitur-fitur berikut:
 2. Edit Webtoon
 3. Hapus Webtoon
 4. Tampilkan Webtoon
+
 Dengan adanya library KakaoWebtoon ini, pengguna dapat dengan mudah mengelola dan menyimpan informasi mengenai webtoon yang ada di platform KakaoWebtoon.
+
 
 # PENJELASAN PADA PACKAGE UTAMA (MAIN)
 
