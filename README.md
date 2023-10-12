@@ -136,17 +136,17 @@ Selain constructor, terdapat juga getter dan setter untuk setiap atribut dalam k
 
   ![image](https://github.com/RemandaDheva/pbo-post-test-2/assets/126783072/97adca48-5b64-4a08-bbb9-22a9c7312bc6)
 
-Gambar diatas merupakan tampilan selanjutnya dari tampilan ubah webtoon jika nomor webtoon yang dimasukan tersedia dalam daftar webtoon. Disini pengguna diminta memasukan Judul Webtoon baru, Genre Webtoon baru, Status Webtoon baru, Nama Penulis baru, Nama Artist baru, Pemilik Karya Asli baru, dan Nama Penerbit baru. Setelah itu maka akan ditampilkan pemberitahuan bahwa data webtoon telah berhasil diubah.
+  Gambar diatas merupakan tampilan selanjutnya dari tampilan ubah webtoon jika nomor webtoon yang dimasukan tersedia dalam daftar webtoon. Disini pengguna diminta memasukan Judul Webtoon baru, Genre Webtoon baru, Status Webtoon baru, Nama Penulis baru, Nama Artist baru, Pemilik Karya Asli baru, dan Nama Penerbit baru. Setelah itu maka akan ditampilkan pemberitahuan bahwa data webtoon telah berhasil diubah.
 
   ![image](https://github.com/RemandaDheva/pbo-post-test-2/assets/126783072/c05353f3-5b79-4cae-a2c8-6a4c0ccde857)
 
-Dapat dilihat pada gambar diatas merupakan daftar webtoon baru setelah data webtoon sebelumnya diubah.
+  Dapat dilihat pada gambar diatas merupakan daftar webtoon baru setelah data webtoon sebelumnya diubah.
 
 * MENU MENGHAPUS WEBTOON
 
   ![image](https://github.com/RemandaDheva/pbo-post-test-2/assets/126783072/d4a88a3b-ed1f-4bae-a289-86386cac5245)
 
-Gambar diatas merupakan tampilan awal pada menu hapus webtoon yang menampilkan semua daftar webtoon yang tersedia dan pengguna diminta memilih nomor webtoon yang ingin dihapus datanya. Jika pengguna memasukan nomor yang tidak tersedia dalam daftar webtoon, maka akan ditampilkan pemberitahuan bahwa nomor yang dimasukan tidak valid dan akan kembali pada menu utama. Tetapi, jika pengguna memasukan nomor webtoon yang tersedia dalam daftar webtoon maka akan ditampilkan pemberitahuan bahwa webtoon tersebut telah dihapus.
+  Gambar diatas merupakan tampilan awal pada menu hapus webtoon yang menampilkan semua daftar webtoon yang tersedia dan pengguna diminta memilih nomor webtoon yang ingin dihapus datanya. Jika pengguna memasukan nomor yang tidak tersedia dalam daftar webtoon, maka akan ditampilkan pemberitahuan bahwa nomor yang dimasukan tidak valid dan akan kembali pada menu utama. Tetapi, jika pengguna memasukan nomor webtoon yang tersedia dalam daftar webtoon maka akan ditampilkan pemberitahuan bahwa webtoon tersebut telah dihapus.
 
   ![image](https://github.com/RemandaDheva/pbo-post-test-2/assets/126783072/b9a301a7-8ee9-4145-bd35-54be5d94d6e7)
 
@@ -157,3 +157,12 @@ Gambar diatas merupakan tampilan awal pada menu hapus webtoon yang menampilkan s
   ![image](https://github.com/RemandaDheva/pbo-post-test-2/assets/126783072/6fc6db09-5e7b-403d-b730-df3cae72462a)
 
   Jika memilih menu ini, maka pengguna akan keluar dari program dan akan ditampilkan pemberitahuannya. Lalu program ini akan berhenti berjalan.
+
+## KESIMPULAN
+
+Secara keseluruhan, library KakaoWebtoon yang telah dibuat merupakan sebuah sistem yang memungkinkan pengguna untuk mengelola dan menyimpan informasi mengenai webtoon. Dalam library ini, saya menggunakan kelas `Manhwa` sebagai representasi dari sebuah webtoon, dengan atribut-atribut seperti judul, genre, status, penulis, artist, karya asli, dan penerbit.
+
+Dengan adanya library ini, pengguna dapat dengan mudah menambahkan, mengakses, mengedit, dan menghapus webtoon dalam library. 
+Selain itu, library ini juga menggunakan Collection seperti ArrayList untuk menyimpan data webtoon. Hal ini memungkinkan pengguna untuk memiliki daftar webtoon yang dinamis dan dapat dengan mudah diperbarui.
+
+Dengan adanya fitur-fitur ini, library KakaoWebtoon memberikan kemudahan dan kenyamanan bagi pengguna dalam mengelola dan mengakses informasi mengenai webtoon. Pengguna dapat dengan mudah menjaga dan mengatur koleksi webtoon mereka, serta menemukan webtoon baru yang menarik.
