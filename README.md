@@ -1,11 +1,11 @@
 # PRAKTIKUM PEMROGRAMAN BERORIENTASI OBJEK
-# POST TEST 2
-# NAMA   : REMANDA DHEVA
-# NIM    : 2209116034
-# KELAS  : A2 SISTEM INFORMASI 2022
-# TEMA   : LIBRARY KAKAO WEBTOON
+## POST TEST 2
+## NAMA   : REMANDA DHEVA
+## NIM    : 2209116034
+## KELAS  : A2 SISTEM INFORMASI 2022
+## TEMA   : LIBRARY KAKAO WEBTOON
 
-# PENJELASAN TEMA
+## PENJELASAN TEMA
   Tema dari library "KakaoWebtoon" adalah menyediakan sebuah sistem untuk mengelola dan menyimpan informasi mengenai webtoon-webtoon yang tersedia di platform KakaoWebtoon.
 KakaoWebtoon adalah salah satu platform webtoon populer yang menyediakan berbagai macam judul webtoon dari berbagai genre seperti romance, action, comedy, dan lain-lain. Dalam library ini, kita akan fokus pada pengelolaan data webtoon yang ada di platform KakaoWebtoon.
 Library KakaoWebtoon akan menyediakan fitur-fitur berikut:
@@ -17,7 +17,12 @@ Library KakaoWebtoon akan menyediakan fitur-fitur berikut:
 Dengan adanya library KakaoWebtoon ini, pengguna dapat dengan mudah mengelola dan menyimpan informasi mengenai webtoon yang ada di platform KakaoWebtoon.
 
 
-# PENJELASAN PADA PACKAGE UTAMA (MAIN)
+## PENJELASAN PADA PACKAGE UTAMA (MAIN)
+
+Pada baris pertama, kita mendeklarasikan package main yang menunjukkan bahwa kelas ini berada dalam package main.
+Pada baris kedua, kita mengimpor kelas Manhwa dari package webtoon. Ini memungkinkan kita untuk menggunakan kelas Manhwa dalam kelas Library.
+Pada baris ketiga, kita mengimpor kelas ArrayList dan Scanner dari package java.util. Ini memungkinkan kita untuk menggunakan kelas-kelas tersebut dalam kelas Library.
+Pada baris kelima, kita mendeklarasikan kelas Library sebagai kelas final, yang berarti kelas ini tidak dapat diwarisi oleh kelas lain.
 
 <li> INPUT MENU CREATE WEBTOON
 
