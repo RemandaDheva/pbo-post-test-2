@@ -19,10 +19,24 @@ Dengan adanya library KakaoWebtoon ini, pengguna dapat dengan mudah mengelola da
 
 ## PENJELASAN PADA PACKAGE UTAMA (MAIN)
 
-Pada baris pertama, kita mendeklarasikan package main yang menunjukkan bahwa kelas ini berada dalam package main.
-Pada baris kedua, kita mengimpor kelas Manhwa dari package webtoon. Ini memungkinkan kita untuk menggunakan kelas Manhwa dalam kelas Library.
-Pada baris ketiga, kita mengimpor kelas ArrayList dan Scanner dari package java.util. Ini memungkinkan kita untuk menggunakan kelas-kelas tersebut dalam kelas Library.
-Pada baris kelima, kita mendeklarasikan kelas Library sebagai kelas final, yang berarti kelas ini tidak dapat diwarisi oleh kelas lain.
+Dalam package 'main', terdapat kelas Library yang bertanggung jawab untuk mengelola operasi-operasi terkait dengan webtoon.
+<li> Deklarasi </li>
+
+* Pada baris pertama, kita mendeklarasikan package main yang menunjukkan bahwa kelas ini berada dalam package main. Package declaration ini membantu dalam mengorganisir dan mengelompokkan kelas-kelas terkait dalam struktur direktori yang terorganisir.
+
+* Pada baris kedua, kita mengimpor kelas Manhwa dari package webtoon. Ini memungkinkan kita untuk menggunakan kelas Manhwa dalam kelas Library. Dengan mengimpor kelas dari package lain, kita dapat menggunakan fungsionalitas yang ada dalam kelas tersebut.
+
+* Pada baris keempat, kita mendeklarasikan variabel listWebtoon sebagai ArrayList yang berisi objek Manhwa. ArrayList adalah salah satu implementasi dari Collection Framework yang digunakan untuk menyimpan dan mengelola kumpulan objek. Dalam hal ini, kita menggunakan ArrayList untuk menyimpan daftar webtoon.
+
+* Pada baris kelima, kita mendeklarasikan variabel input sebagai objek Scanner. Scanner adalah kelas yang digunakan untuk membaca input dari pengguna. Dalam hal ini, kita menggunakan Scanner untuk membaca input dari pengguna saat melakukan operasi-operasi terkait webtoon.
+
+<li> Kelas Library </li>
+
+* Kelas Library dideklarasikan sebagai final, yang berarti kelas ini tidak dapat diwarisi oleh kelas lain. Ini dapat berguna jika kita ingin mencegah kelas ini diubah atau di-extend oleh kelas lain.
+
+* Kelas Library memiliki konstruktor kosong yang tidak menerima parameter. Konstruktor ini tidak melakukan operasi apapun. Konstruktor kosong ini dapat digunakan jika kita ingin membuat objek Library tanpa melakukan inisialisasi khusus.
+
+* Kelas Library memiliki beberapa method yang digunakan untuk melakukan operasi-operasi terkait webtoon. Method main adalah method utama program yang akan dieksekusi saat program dijalankan. Method ini berfungsi sebagai entry point program. Method addWebtoon digunakan untuk menambahkan webtoon baru ke dalam listWebtoon. Method readWebtoon digunakan untuk menampilkan daftar webtoon yang ada dalam listWebtoon. Method deleteWebtoon digunakan untuk menghapus webtoon dari listWebtoon.
 
 <li> INPUT MENU CREATE WEBTOON
 
