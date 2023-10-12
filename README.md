@@ -107,28 +107,53 @@ Selain constructor, terdapat juga getter dan setter untuk setiap atribut dalam k
 
   ![image](https://github.com/RemandaDheva/pbo-post-test-2/assets/126783072/b8777532-785c-4c75-b0ad-f3b39733daa2)
 
+  Gambar diatas merupakan tampilan awal pada program ini, yang menampilkan menu utama Library KakaoWebtoon ini. Dalam menu utama terdapat 5 menu yang tersedia, yaitu:
+  1. Menu Tambah webtoon
+  2. Menu Tampilkan Webtoon
+  3. Edit Webtoon
+  4. Hapus Webtoon
+  5. Menu Keluar
+
+  Lalu pengguna akan diminta untuk memilih menu yang diinginkan. Program ini tidak akan berhenti kecuali pengguna memilih menu keluar.
+  
 * MENU TAMBAHKAN WEBTOON
 
   ![image](https://github.com/RemandaDheva/pbo-post-test-2/assets/126783072/beebfbc5-71a5-4974-83e0-874dedd3be43)
 
+  Jika memilih menu tambahkan webtoon, pengguna akan diminta untuk memasukan Judul Webtoon, Genre Webtoon, Status Webtoon, Nama Penulis, Nama Artist, Pemilik Karya Asli, dan Nama Penerbit. Setelah itu maka akan ditampilkan pemberitahuan bahwa data webtoon telah berhasil ditambahkan.
+  
 * MENU TAMPILKAN WEBTOON
 
   ![image](https://github.com/RemandaDheva/pbo-post-test-2/assets/126783072/9414c42b-3906-4086-8d0d-3fdb9d6a1955)
 
+  Gambar diatas merupakan tampilan menu tampilkan webtoon yang menampilkan semua daftar webtoon yang ada dalam program.
+  
 * MENU MENGUBAH WEBTOON
 
   ![image](https://github.com/RemandaDheva/pbo-post-test-2/assets/126783072/60df2758-17ea-47f2-9934-2e98f3392b1f)
 
+  Gambar diatas merupakan tampilan awal pada menu ubah webtoon yang menampilkan semua daftar webtoon yang tersedia dan pengguna diminta memilih nomor webtoon yang ingin diubah datanya. Jika pengguna memasukan nomor yang tidak tersedia dalam daftar webtoon, maka akan ditampilkan pemberitahuan bahwa nomor yang dimasukan tidak valid dan akan kembali pada menu utama.
+
   ![image](https://github.com/RemandaDheva/pbo-post-test-2/assets/126783072/97adca48-5b64-4a08-bbb9-22a9c7312bc6)
 
+Gambar diatas merupakan tampilan selanjutnya dari tampilan ubah webtoon jika nomor webtoon yang dimasukan tersedia dalam daftar webtoon. Disini pengguna diminta memasukan Judul Webtoon baru, Genre Webtoon baru, Status Webtoon baru, Nama Penulis baru, Nama Artist baru, Pemilik Karya Asli baru, dan Nama Penerbit baru. Setelah itu maka akan ditampilkan pemberitahuan bahwa data webtoon telah berhasil diubah.
+
   ![image](https://github.com/RemandaDheva/pbo-post-test-2/assets/126783072/c05353f3-5b79-4cae-a2c8-6a4c0ccde857)
+
+Dapat dilihat pada gambar diatas merupakan daftar webtoon baru setelah data webtoon sebelumnya diubah.
 
 * MENU MENGHAPUS WEBTOON
 
   ![image](https://github.com/RemandaDheva/pbo-post-test-2/assets/126783072/d4a88a3b-ed1f-4bae-a289-86386cac5245)
 
+Gambar diatas merupakan tampilan awal pada menu hapus webtoon yang menampilkan semua daftar webtoon yang tersedia dan pengguna diminta memilih nomor webtoon yang ingin dihapus datanya. Jika pengguna memasukan nomor yang tidak tersedia dalam daftar webtoon, maka akan ditampilkan pemberitahuan bahwa nomor yang dimasukan tidak valid dan akan kembali pada menu utama. Tetapi, jika pengguna memasukan nomor webtoon yang tersedia dalam daftar webtoon maka akan ditampilkan pemberitahuan bahwa webtoon tersebut telah dihapus.
+
   ![image](https://github.com/RemandaDheva/pbo-post-test-2/assets/126783072/b9a301a7-8ee9-4145-bd35-54be5d94d6e7)
+
+  Dapat dilihat pada gambar diatas merupakan daftar webtoon terbaru setelah webtoon sebelumnya telah dihapus.
 
 * MENU KELUAR
 
   ![image](https://github.com/RemandaDheva/pbo-post-test-2/assets/126783072/6fc6db09-5e7b-403d-b730-df3cae72462a)
+
+  Jika memilih menu ini, maka pengguna akan keluar dari program dan akan ditampilkan pemberitahuannya. Lalu program ini akan berhenti berjalan.
